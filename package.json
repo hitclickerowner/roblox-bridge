@@ -1,0 +1,14 @@
+{
+  "name": "roblox-realtime-editor-bridge",
+  "version": "1.0.0",
+  "description": "Bridge server that links a Roblox in-experience editor to Open Cloud APIs for live cross-server broadcast + persistent change storage.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
